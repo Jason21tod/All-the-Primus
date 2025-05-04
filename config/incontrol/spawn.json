@@ -1,0 +1,110 @@
+[   
+    {
+        "mod":"born_in_chaos_v1",
+        "mincount":{
+            "amount":10
+        },
+        "result":"deny"
+    },
+    {
+        "mob":"minecraft:skeleton",
+        "mincount": 5,
+        "result":"deny"
+    },
+    {
+        "mob":"minecraft:spider",
+        "mincount": 5,
+        "result":"deny"
+    },
+    {
+        "mob":"minecraft:creeper",
+        "mincount": 3,
+        "result":"deny"
+    },
+    {
+        "mod":"minecraft",
+        "mincount": {
+            "amount":30,
+            "perplayer": true
+        },
+        "passive":true,
+        "result":"deny"
+    },
+    {
+        "mob":"minecraft:bat",
+        "mincount":5,
+        "result": "deny"
+    },
+    {
+        "mob":"minecraft:zombie",
+        "mincount": 10,
+        "result":"deny"
+    },{
+        "mod":"undead_revamp2",
+        "mincount":{
+            "amount":5
+        },
+        "result":"deny"
+    },
+    {
+        "mod":"scguns",
+        "hostile":true,
+        "mincount":{
+            "amount":5
+        },
+        "result":"deny"
+    },
+    {
+        "mod":"thermal",
+        "hostile":true,
+        "mincount":{
+            "amount":3
+        },
+        "result":"deny"
+    },
+
+    {
+        "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi"],
+        "dimension": "minecraft:overworld",
+        "biome": "terralith:sakura_grove",
+        "result": "default"
+    },
+    {
+        "hostile":true,
+        "dimension":"minecraft:overworld",
+        "biome":"terralith:sakura_grove",
+        "result":"deny"
+    },
+
+    {
+        "mod":"alexmobs",
+        "dimension": "minecraft:nether",
+        "hostile":true,
+        "mincount":{
+            "amount": 10
+        },
+        "result": "deny"
+    },
+
+    {
+        "mob":"traveloptics:aqua_grandmaster",
+        "mincount": {
+            "perplayer":true,
+            "amount":1
+        },
+        "result":"deny"
+    },
+    
+    {
+        "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi", "samurai_dynasty:kawasuo", "samurai_dynasty:tanuki"],
+        "dimension": "minecraft:overworld",
+        "biome": "terralith:sakura_grove",
+        "result": "default"
+    },
+    {
+        "hostile":true,
+        "dimension":"minecraft:overworld",
+        "biome":"terralith:sakura_grove",
+        "result":"deny"
+    }
+]

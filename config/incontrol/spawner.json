@@ -1,0 +1,71 @@
+[
+    {
+        "mob": [
+            "samurai_dynasty:kitsune"
+        ],
+            "persecond": 0.2,
+            "attempts": 50,
+            "amount": {
+                "minimum": 1,
+                "maximum": 1
+        },
+            "conditions": {
+                "dimension": "minecraft:overworld"
+        }
+    },{
+        "mob": [
+            "samurai_dynasty:onibi"
+        ],
+            "persecond": 0.4,
+            "attempts": 150,
+            "amount": {
+                "minimum": 2,
+                "maximum": 5
+        },
+            "conditions": {
+                "dimension": "minecraft:overworld"
+        }
+    },{
+        "mob": [
+            "samurai_dynasty:komainu"
+        ],
+            "persecond": 0.1,
+            "attempts": 50,
+            "amount": {
+                "minimum": 2,
+                "maximum": 5
+        },
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "norestrictions":true
+        }
+    },{
+        "mob": [
+            "samurai_dynasty:tanuki"
+        ],
+            "persecond": 0.1,
+            "attempts": 50,
+            "amount": {
+                "minimum": 2,
+                "maximum": 2
+        },
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "norestrictions":true
+        }
+    },{
+        "mob": [
+            "samurai_dynasty:kawasuo"
+        ],
+            "persecond": 0.1,
+            "attempts": 50,
+            "amount": {
+                "minimum": 2,
+                "maximum": 2
+        },
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "norestrictions":true
+        }
+    }
+]

@@ -1,0 +1,288 @@
+
+[Spells]
+
+	[Spells."Desert Crush Spell"]
+		#Desert Crush Spell Cooldown, Default: 160
+		#Range: > 0
+		desertCrushCoolDown = 160
+		#Desert Crush Spell Cost, Default: 64
+		#Range: > 0
+		desertCrushCost = 64
+		#Desert Crush Spell Damage, Default: 18.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		desertCrushDamage = 18.0
+		#Time to cast Desert Crush Spell, Default: 70
+		#Range: 0 ~ 72000
+		desertCrushTime = 70
+
+	[Spells."Void Vortex Spell"]
+		#Void Vortex Spell Cooldown, Default: 280
+		#Range: > 0
+		voidVortexCoolDown = 280
+		#Time to cast Void Vortex Spell, Default: 50
+		#Range: 0 ~ 72000
+		voidVortexTime = 50
+		#Void Vortex Spell Cost, Default: 64
+		#Range: > 0
+		voidVortexCost = 64
+		#Void Vortex default explosion radius, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		voidVortexRadius = 2.0
+
+	[Spells."Sunken Current Spell"]
+		#Time to cast Sunken Current Spell, Default: 20
+		#Range: 0 ~ 72000
+		deeplingBruteTime = 20
+		#Sunken Current Spell Summon Down, Default: 150
+		#Range: 0 ~ 72000
+		deeplingBruteSummonDown = 150
+		#Number of Deepling Brute Servants that can a player can have, Default: 8
+		#Range: > 1
+		deeplingBruteLimit = 8
+		#Sunken Current Spell Cooldown, Default: 600
+		#Range: > 0
+		deeplingBruteCoolDown = 600
+		#Sunken Current Spell Cost, Default: 32
+		#Range: > 0
+		deeplingBruteCost = 32
+
+	[Spells."Cursed Tomb Spell"]
+		#Time to cast Cursed Tomb Spell, Default: 100
+		#Range: 0 ~ 72000
+		royalDraugrTime = 100
+		#Cursed Tomb Spell Cooldown, Default: 1200
+		#Range: > 0
+		royalDraugrCoolDown = 1200
+		#Cursed Tomb Spell Cost, Default: 48
+		#Range: > 0
+		royalDraugrCost = 48
+		#Number of Royal Draugr Servants that can a player can have, Default: 16
+		#Range: > 1
+		royalDraugrLimit = 16
+		#Cursed Tomb Spell Summon Down, Default: 300
+		#Range: 0 ~ 72000
+		royalDraugrSummonDown = 300
+
+	[Spells."Sunken Swell Spell"]
+		#Time to cast Sunken Swell Spell, Default: 60
+		#Range: 0 ~ 72000
+		deeplingTime = 60
+		#Number of Deepling Servants that can a player can have, Default: 32
+		#Range: > 1
+		deeplingLimit = 32
+		#Sunken Swell Spell Cost, Default: 24
+		#Range: > 0
+		deeplingCost = 24
+		#Sunken Swell Spell Cooldown, Default: 100
+		#Range: > 0
+		deeplingCoolDown = 100
+		#Sunken Swell Spell Summon Down, Default: 300
+		#Range: 0 ~ 72000
+		deeplingSummonDown = 300
+
+	[Spells."Blazing Fire Spell"]
+		#Time to cast Blazing Fire Spell, Default: 70
+		#Range: 0 ~ 72000
+		blazingFireTime = 70
+		#Blazing Fire's Fireballs default explosion radius, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		blazingFireRadius = 1.0
+		#Blazing Fire Spell Cost, Default: 64
+		#Range: > 0
+		blazingFireCost = 64
+		#Blazing Fire Spell Cooldown, Default: 300
+		#Range: > 0
+		blazingFireCoolDown = 300
+
+	[Spells."Cursed Cairn Spell"]
+		#Cursed Cairn Spell Cost, Default: 32
+		#Range: > 0
+		eliteDraugrCost = 32
+		#Cursed Cairn Spell Summon Down, Default: 300
+		#Range: 0 ~ 72000
+		eliteDraugrSummonDown = 300
+		#Number of Elite Draugr Servants that can a player can have, Default: 16
+		#Range: > 1
+		eliteDraugrLimit = 16
+		#Time to cast Cursed Cairn Spell, Default: 60
+		#Range: 0 ~ 72000
+		eliteDraugrTime = 60
+		#Cursed Cairn Spell Cooldown, Default: 100
+		#Range: > 0
+		eliteDraugrCoolDown = 100
+
+	[Spells."Sandstorm Spell"]
+		#Sandstorm Spell Cost, Default: 32
+		#Range: > 0
+		sandstormCost = 32
+		#Time to cast Sandstorm Spell, Default: 55
+		#Range: 0 ~ 72000
+		sandstormTime = 55
+		#Sandstorm Spell Cooldown, Default: 500
+		#Range: > 0
+		sandstormCoolDown = 500
+		#Sandstorm Spell Damage, Default: 5.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		sandstormDamage = 5.0
+
+	[Spells."Servant Limits"]
+		#Number of Coralssus Servants that an individual player can have in total, Default: 2
+		#Range: > 1
+		coralssusLimit = 2
+		#Number of Coral Golem Servants that an individual player can have in total, Default: 4
+		#Range: > 1
+		coralGolemLimit = 4
+		#Total number of Ignited Revenant an individual player can have, Default: 2
+		#Range: > 0
+		ignitedRevenantLimit = 2
+		#Total number of Ignited Berserkers an individual player can have, Default: 2
+		#Range: > 0
+		ignitedBerserkerLimit = 2
+		#Total number of Prowlers an individual player can have, Default: 2
+		#Range: > 0
+		prowlerLimit = 2
+		#Number of Aptrgangr Servants that an individual player can have in total, Default: 2
+		#Range: > 1
+		aptygangrLimit = 2
+		#Total number of Kobolediators an individual player can have, Default: 2
+		#Range: > 0
+		kobolediatorLimit = 2
+		#Total number of Watcher Servants an individual player can have, Default: 16
+		#Range: > 0
+		watcherLimit = 16
+		#Total number of Ender Golems an individual player can have, Default: 2
+		#Range: > 0
+		enderGolemLimit = 2
+		#Total number of Wadjets an individual player can have, Default: 2
+		#Range: > 0
+		wadjetLimit = 2
+
+	[Spells."Sunken Tribune Spell"]
+		#Sunken Tribune Spell Cooldown, Default: 1200
+		#Range: > 0
+		deeplingCasterCoolDown = 1200
+		#Sunken Tribune Spell Summon Down, Default: 300
+		#Range: 0 ~ 72000
+		deeplingCasterSummonDown = 300
+		#Time to cast Sunken Tribune Spell, Default: 100
+		#Range: 0 ~ 72000
+		deeplingCasterTime = 100
+		#Number of Deepling Priest/Warlock Servants that can a player can have, Default: 4
+		#Range: > 1
+		deeplingCasterLimit = 4
+		#Sunken Tribune Spell Cost, Default: 24
+		#Range: > 0
+		deeplingCasterCost = 24
+
+	[Spells."Void Rune Spell"]
+		#Void Rune Spell Cooldown, Default: 160
+		#Range: > 0
+		voidRuneCoolDown = 160
+		#Time to cast Void Rune Spell, Default: 0
+		#Range: 0 ~ 72000
+		voidRuneTime = 0
+		#Void Rune Spell Damage, Default: 7.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		voidRuneDamage = 7.0
+		#Void Rune Spell Cost, Default: 12
+		#Range: > 0
+		voidRuneCost = 12
+
+	[Spells."Cursed Grave Spell"]
+		#Cursed Grave Spell Summon Down, Default: 300
+		#Range: 0 ~ 72000
+		draugrSummonDown = 300
+		#Number of Draugr Servants that can a player can have, Default: 32
+		#Range: > 1
+		draugrLimit = 32
+		#Cursed Grave Spell Cost, Default: 24
+		#Range: > 0
+		draugrCost = 24
+		#Time to cast Cursed Grave Spell, Default: 60
+		#Range: 0 ~ 72000
+		draugrTime = 60
+		#Cursed Grave Spell Cooldown, Default: 100
+		#Range: > 0
+		draugrCoolDown = 100
+
+	[Spells."Desert Raid Spell"]
+		#Desert Raid Spell Cooldown, Default: 100
+		#Range: > 0
+		koboletonCoolDown = 100
+		#Time to cast Desert Raid Spell, Default: 60
+		#Range: 0 ~ 72000
+		koboletonTime = 60
+		#Number of Koboleton Servants that can a player can have, Default: 32
+		#Range: > 1
+		koboletonLimit = 32
+		#Desert Raid Spell Cost, Default: 16
+		#Range: > 0
+		koboletonCost = 16
+		#Desert Raid Spell Summon Down, Default: 300
+		#Range: 0 ~ 72000
+		koboletonSummonDown = 300
+
+	[Spells."Abyssal Beam Spell"]
+		#Abyssal Beam Spell Cost, Default: 32
+		#Range: > 0
+		abyssalBeamCost = 32
+		#Abyssal Beam Spell HP percentage Damage, Default: 0.1
+		#Range: 0.0 ~ 1.7976931348623157E308
+		abyssalBeamHPDamage = 0.1
+		#Whether Abyssal Beam Spell can potentially breaks blocks, Default: false
+		abyssalBeamGriefing = false
+		#Time to cast Abyssal Beam Spell, Default: 80
+		#Range: 0 ~ 72000
+		abyssalBeamTime = 80
+		#Abyssal Beam Spell Cooldown, Default: 400
+		#Range: > 0
+		abyssalBeamCoolDown = 400
+		#Abyssal Beam Spell Damage, Default: 10.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		abyssalBeamDamage = 10.0
+
+	[Spells."Abyssal Mines Spell"]
+		#Time to cast Abyssal Mines Spell, Default: 70
+		#Range: 0 ~ 72000
+		abyssalMinesTime = 70
+		#Abyssal Mines Spell Cooldown, Default: 800
+		#Range: > 0
+		abyssalMinesCoolDown = 800
+		#Abyssal Mines Spell Cost, Default: 16
+		#Range: > 0
+		abyssalMinesCost = 16
+		#Abyssal Mines default explosion radius, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		abyssalMinesRadius = 1.0
+
+	[Spells."Flare Bomb Spell"]
+		#Flare Bomb Spell Cost, Default: 32
+		#Range: > 0
+		flareBombCost = 32
+		#Flare Bomb Spell Damage, Default: 7.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		flareBombDamage = 7.0
+		#Flare Bomb Spell Cooldown, Default: 120
+		#Range: > 0
+		flareBombCoolDown = 120
+		#Time to cast Flare Bomb Spell, Default: 60
+		#Range: 0 ~ 72000
+		flareBombTime = 60
+
+	[Spells."Abyssal Orbs Spell"]
+		#Abyssal Orbs default explosion radius, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		abyssalOrbsRadius = 1.0
+		#Abyssal Orbs Spell Cost, Default: 16
+		#Range: > 0
+		abyssalOrbsCost = 16
+		#Time to cast Abyssal Orbs Spell, Default: 90
+		#Range: 0 ~ 72000
+		abyssalOrbsTime = 90
+		#Abyssal Orbs Spell Cooldown, Default: 400
+		#Range: > 0
+		abyssalOrbsCoolDown = 400
+		#Abyssal Orbs Spell Damage, Default: 4.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		abyssalOrbsDamage = 4.0
+
