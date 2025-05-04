@@ -7,6 +7,9 @@
 /crash-reports
 /modernfix
 /downloads
+/local
+
+*.json.gz
 
 .curseclient
 
