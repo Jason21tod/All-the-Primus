@@ -305,7 +305,7 @@
     "tooltip.irons_spellbooks.rarity": "(%s)",
     "tooltip.irons_spellbooks.spellbook_rarity": "%s Spell Book",
     "tooltip.irons_spellbooks.spellbook_unique": "Unique",
-    "tooltip.irons_spellbooks.spellbook_spell_count": "%s Spell Slots",
+    "tooltip.irons_spellbooks.spellbook_spell_count": "%s Espaços de Magia",
     "tooltip.irons_spellbooks.press_to_cast": "Press [%s] to cast",
     "tooltip.irons_spellbooks.press_to_cast_active": "[%s] to cast",
     "tooltip.irons_spellbooks.cast_continuous": "%s Duração do cast",
