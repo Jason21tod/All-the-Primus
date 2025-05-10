@@ -59,20 +59,22 @@
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
-  "mekanismcovers": {
-    "cover_component": true
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
   },
   "avaritia": {
     "collector": true,
     "compressor": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -82,16 +84,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "lootr": {
-    "info": true
   },
   "balm": {
     "jade": true
@@ -108,11 +104,21 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "canvas_beehive": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
   },
   "mekanism": {
     "infuse_type": true,
@@ -131,17 +137,6 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
   },
   "waystones": {
     "waystone": true

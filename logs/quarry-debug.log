@@ -1,4 +1,4 @@
-[2025-05-04T20:56:57,811][W] [TQW/initialLog]: Config in 'KuroiAme3546 - New World'
+[2025-05-09T06:48:49,618][W] [TQW/initialLog]: Config in 'KuroiAme3546 - Novo mundo'
 {
   "server": {
     "machineWork": {
@@ -6,6 +6,80 @@
     }
   },
   "common": {
+    "acceptableEnchantmentsMap": {
+      "mini_quarry": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking"
+      ],
+      "adv_quarry": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking",
+        "minecraft:fortune",
+        "minecraft:silk_touch"
+      ],
+      "adv_pump": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking",
+        "minecraft:fortune"
+      ],
+      "quarry": [
+        "minecraft:efficiency",
+        "minecraft:unbreaking",
+        "minecraft:fortune",
+        "minecraft:silk_touch"
+      ]
+    },
+    "common": {
+      "reduceMarkerGuideLineIfPlayerIsFar": false,
+      "chunkDestroyerLimit": -1,
+      "debug": false,
+      "removeFrameAfterQuarryIsRemoved": false,
+      "removeCommonMaterialsByCD": true,
+      "flexMarkerMaxDistance": 256,
+      "spawnerBlackList": [
+        "minecraft:ender_dragon",
+        "minecraft:wither",
+        "minecraft:area_effect_cloud",
+        "minecraft:item",
+        "minecraft:player"
+      ],
+      "netherTop": 127,
+      "removeFluidAfterFinishedByCD": false,
+      "sfqEnergy": 2.0,
+      "customPlayer": false,
+      "noEnergy": false,
+      "convertDeepslateOres": false,
+      "allowWorkbenchExtraction": false,
+      "allowWorkInClaimedChunkByFBTChunks": false,
+      "enableChunkLoader": true,
+      "logAllQuarryWork": false
+    },
+    "enableMap": {
+      "mini_quarry": true,
+      "spawner_controller": false,
+      "fuel_module_normal": true,
+      "exp_module": true,
+      "pump_module": true,
+      "filter_module": true,
+      "remove_bedrock_module": false,
+      "replacer": false,
+      "replacer_module": false,
+      "repeat_tick_module": false,
+      "remote_placer": false,
+      "quarry": true,
+      "filler_module": false,
+      "solid_fuel_quarry": true,
+      "adv_quarry": true,
+      "mover": true,
+      "placer_plus": true,
+      "adv_pump": true,
+      "filler": true,
+      "mining_well": true,
+      "exp_pump": true,
+      "book_mover": false,
+      "workbench": true,
+      "pump_plus": true
+    },
     "powerMap": {
       "mini_quarry": {
         "maxEnergy": 1000.0,
@@ -57,80 +131,6 @@
         "breakFortuneCoefficient": 1.5874010519681996,
         "breakSilktouchCoefficient": 4.0
       }
-    },
-    "enableMap": {
-      "mini_quarry": true,
-      "spawner_controller": false,
-      "fuel_module_normal": true,
-      "exp_module": true,
-      "pump_module": true,
-      "filter_module": true,
-      "remove_bedrock_module": false,
-      "replacer": false,
-      "replacer_module": false,
-      "repeat_tick_module": false,
-      "remote_placer": false,
-      "quarry": true,
-      "filler_module": false,
-      "solid_fuel_quarry": true,
-      "adv_quarry": true,
-      "mover": true,
-      "placer_plus": true,
-      "adv_pump": true,
-      "filler": true,
-      "mining_well": true,
-      "exp_pump": true,
-      "book_mover": false,
-      "workbench": true,
-      "pump_plus": true
-    },
-    "common": {
-      "reduceMarkerGuideLineIfPlayerIsFar": false,
-      "chunkDestroyerLimit": -1,
-      "debug": false,
-      "removeFrameAfterQuarryIsRemoved": false,
-      "removeCommonMaterialsByCD": true,
-      "flexMarkerMaxDistance": 256,
-      "spawnerBlackList": [
-        "minecraft:ender_dragon",
-        "minecraft:wither",
-        "minecraft:area_effect_cloud",
-        "minecraft:item",
-        "minecraft:player"
-      ],
-      "netherTop": 127,
-      "removeFluidAfterFinishedByCD": false,
-      "sfqEnergy": 2.0,
-      "customPlayer": false,
-      "noEnergy": false,
-      "convertDeepslateOres": false,
-      "allowWorkbenchExtraction": false,
-      "allowWorkInClaimedChunkByFBTChunks": false,
-      "enableChunkLoader": true,
-      "logAllQuarryWork": false
-    },
-    "acceptableEnchantmentsMap": {
-      "mini_quarry": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking"
-      ],
-      "adv_quarry": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking",
-        "minecraft:fortune",
-        "minecraft:silk_touch"
-      ],
-      "adv_pump": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking",
-        "minecraft:fortune"
-      ],
-      "quarry": [
-        "minecraft:efficiency",
-        "minecraft:unbreaking",
-        "minecraft:fortune",
-        "minecraft:silk_touch"
-      ]
     }
   }
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroiAme3546",
+      "uniqueId": "2a31c9a9-b5c6-4e43-abe7-ae034584d661"
+    },
+    "time": 1746532223998,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nOgJFQnNkN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroiAme3546",
+      "uniqueId": "2a31c9a9-b5c6-4e43-abe7-ae034584d661"
+    },
+    "time": 1746442620865,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LIzBJrbYBs"
+    }
+  }
+]

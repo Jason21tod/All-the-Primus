@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/gian2/curseforge/Instances/All the Primus/saves/New World
+  is_server = true
+  world = enx-cirion-84.enx.host:10270
 }
 

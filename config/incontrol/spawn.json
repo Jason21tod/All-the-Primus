@@ -64,10 +64,15 @@
     },
 
     {
+        "mod":"samurai_dynasty",
+        "dimension":"minecraft:overworld",
+        "result":"deny"
+    },
+    {
         "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi"],
         "dimension": "minecraft:overworld",
         "biome": "terralith:sakura_grove",
-        "result": "default"
+        "result": "allow"
     },
     {
         "hostile":true,
@@ -105,6 +110,12 @@
         "hostile":true,
         "dimension":"minecraft:overworld",
         "biome":"terralith:sakura_grove",
+        "result":"deny"
+    },
+
+    {
+        "mob":["born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_trasher"],
+        "mincount":1,
         "result":"deny"
     }
 ]

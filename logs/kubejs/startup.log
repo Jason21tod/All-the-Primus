@@ -1,18 +1,19 @@
-[20:51:15] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:51:15] [INIT] Loaded plugins:
-[20:51:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:51:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:51:15] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[20:51:15] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
-[20:51:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[20:51:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[20:51:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[20:51:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[20:51:15] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[20:51:15] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[20:51:15] [INIT] - com.probejs.ProbeJSPlugin
-[20:51:15] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[20:51:15] [INIT] - dev.xkmc.l2hostility.compat.kubejs.LHKJSPlugin
-[20:51:19] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[20:51:19] [INFO] Loaded script startup_scripts:example.js in 0.721 s
-[20:51:19] [INFO] Loaded 1/1 KubeJS startup scripts in 3.336 s with 0 errors and 0 warnings
+[21:09:54] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[21:09:54] [INIT] Loaded plugins:
+[21:09:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[21:09:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[21:09:54] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[21:09:54] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[21:09:54] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[21:09:54] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[21:09:54] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[21:09:54] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[21:09:54] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[21:09:54] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[21:09:54] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[21:09:54] [INIT] - com.probejs.ProbeJSPlugin
+[21:09:54] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[21:09:54] [INIT] - dev.xkmc.l2hostility.compat.kubejs.LHKJSPlugin
+[21:09:56] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[21:09:56] [INFO] Loaded script startup_scripts:example.js in 0.133 s
+[21:09:56] [INFO] Loaded 1/1 KubeJS startup scripts in 1.479 s with 0 errors and 0 warnings

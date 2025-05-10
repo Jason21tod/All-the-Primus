@@ -154,6 +154,17 @@
         "value": 2048
       }
     },
+    "undead_revamp2:bossloader": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -427,6 +438,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "ars_nouveau:ars_elemental.perk.summon_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "l2damagetracker:explosion_damage": {
@@ -1153,6 +1175,17 @@
       "max": {
         "default": 24,
         "value": 24
+      }
+    },
+    "undead_revamp2:returnvauleundead": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 3,
+        "value": 3
       }
     },
     "additionalentityattributes:lava_visibility": {
