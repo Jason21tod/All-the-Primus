@@ -1,5 +1,33 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "goety:black_book": {
+      "viewedEntries": [
+        "goety:intro/introduction",
+        "goety:intro/soul_energy",
+        "goety:intro/magical_components",
+        "goety:intro/cursed_infuser",
+        "goety:intro/magical_fabrics"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "footwork:combat_manual": {
+      "viewedEntries": [
+        "footwork:selfdefense/posture",
+        "footwork:selfdefense/parry0",
+        "footwork:selfdefense/parry1",
+        "footwork:selfdefense/fracture0",
+        "footwork:selfdefense/binding",
+        "footwork:selfdefense/movesets",
+        "footwork:selfdefense/fracture1",
+        "footwork:selfdefense/fracture2",
+        "footwork:selfdefense/fracture3",
+        "footwork:selfdefense/dualwielding"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

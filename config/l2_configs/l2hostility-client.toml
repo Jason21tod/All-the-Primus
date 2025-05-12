@@ -9,7 +9,7 @@ overHeadRenderDistance = 32
 #Range: -100.0 ~ 100.0
 overHeadRenderOffset = 0.0
 #Overhead render text becomes full bright
-overHeadRenderFullBright = true
+overHeadRenderFullBright = false
 #Overhead level color in decimal form, converted from hex form
 #Range: > -2147483648
 overHeadLevelColor = 11184810
@@ -17,7 +17,7 @@ overHeadLevelColor = 11184810
 #Range: > -2147483648
 overHeadLevelColorAbyss = 16733525
 #Show nameplate style trait and name only when hovered
-showOnlyWhenHovered = false
+showOnlyWhenHovered = true
 #Detector Glasses glowing range for hidden mobs
 #Range: 1 ~ 256
 glowingRangeHidden = 32
