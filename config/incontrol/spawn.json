@@ -1,96 +1,236 @@
-[   
-    {
-        "mod":"born_in_chaos_v1",
-        "mincount":{
-            "amount":10
+ [   
+        
+        
+        {
+            "mob":["alexscaves:caramel_cube", "alexscaves:sweetish_fish"],
+            "mincount":{
+                "perplayer":true,
+                "amount":5
+            },
+            "result":"allow"
+        },{
+            "mod":"alexscaves",
+            "result":"allow"
+        },{
+            "mod":"cataclysm",
+            "result":"default"
         },
-        "result":"deny"
+        {
+            "mod":"alexsmobs",
+            "result":"allow"
+        },
+        {
+            "mod":"galosphere",
+            "result":"default"
+        },{
+            "mod":"iceandfire",
+            "result":"default"
+        },
+        {
+            "mob":"cataclysm:coral_golem",
+            "mincount":{
+                "amount":1
+            },
+            "result":"deny"
+        },
+        {
+            "mob":["cataclysm:lionfish","cataclysm:deepling","cataclysm:deepling_angler","cataclysm:deepling_brute","cataclysm:deepling_priest","cataclysm:deepling_warlock"],
+        	"mincount":{
+                "amount":3,
+                "perplayer":true
+            },
+            "result":"deny"
+        },
+     	
+        
+        {
+            "mob":"cataclysm:amethyst_crab",
+            "dimension":"minecraft:overworld",
+            "result":"deny"
+        },{
+            "mob":"cataclysm:amethyst_crab",
+            "biome":["terralith:moonlight_valley","terralith:moonlight_grove"],
+            "result":"default"
+        },
+        
+        {
+		"mob":["quark:toretoise","quark:stoneling"],
+         "mincount":{
+             "amount":4,
+             "perplayer":true
+         },
+         "result":"deny"
     },
     {
-        "mob":"minecraft:skeleton",
-        "mincount": 5,
-        "result":"deny"
-    },
-    {
-        "mob":"minecraft:spider",
-        "mincount": 5,
-        "result":"deny"
-    },
-    {
-        "mob":"minecraft:creeper",
-        "mincount": 3,
-        "result":"deny"
-    },
-    {
-        "mod":"minecraft",
+        "mob":"samurai_dynasty:onibi",
         "mincount": {
-            "amount":30,
-            "perplayer": true
+            "perplayer": true,
+            "amount":2
         },
-        "passive":true,
-        "result":"deny"
-    },
-    {
-        "mob":"minecraft:bat",
-        "mincount":5,
-        "result": "deny"
-    },
-    {
-        "mob":"minecraft:zombie",
-        "mincount": 10,
-        "result":"deny"
-    },{
-        "mod":"undead_revamp2",
-        "mincount":{
-            "amount":5
-        },
-        "result":"deny"
-    },
-    {
-        "mod":"scguns",
-        "hostile":true,
-        "mincount":{
-            "amount":5
-        },
-        "result":"deny"
-    },
-    {
-        "mod":"thermal",
-        "hostile":true,
-        "mincount":{
-            "amount":3
-        },
-        "result":"deny"
-    },
-
-    {
-        "mod":"samurai_dynasty",
-        "dimension":"minecraft:overworld",
         "result":"deny"
     },
     {
         "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi"],
         "dimension": "minecraft:overworld",
-        "biome": "terralith:sakura_grove",
+        "biome":["terralith:sakura_grove","minecraft:cherry_grove", "terralith:sakura_valley"],
+        "result": "default"
+    },
+    {
+        "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi"],
+        "dimension": "minecraft:overworld",
+        "biome":["terralith:sakura_grove","minecraft:cherry_grove", "terralith:sakura_valley"],
+        "maxcount":{
+            "perplayer":true,
+            "amount":3
+        },
+        "result": "default"
+    },
+
+    {
+        "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi", "samurai_dynasty:kawasuo", "samurai_dynasty:tanuki"],
+        "dimension": "minecraft:overworld",
+        "biome": ["terralith:sakura_grove","minecraft:cherry_grove", "terralith:sakura_valley"],
         "result": "allow"
     },
-    {
-        "hostile":true,
-        "dimension":"minecraft:overworld",
-        "biome":"terralith:sakura_grove",
-        "result":"deny"
-    },
+    
 
-    {
-        "mod":"alexmobs",
-        "dimension": "minecraft:nether",
-        "hostile":true,
-        "mincount":{
-            "amount": 10
-        },
+     {
+        "hostile": true,
+        "dimension": "minecraft:overworld",
+        "biome":["terralith:sakura_grove","minecraft:cherry_grove", "terralith:sakura_valley"],
         "result": "deny"
     },
+    
+    {
+    	"mob":"minecraft:zombie",
+        "mincount":{
+            "perplayer":true,
+            "amount":3
+        },
+        "result":"deny"
+    },{
+    	"mob":["minecraft:skeleton","minecraft:skeleton", "minecraft:creeper"],
+        "mincount":{
+            "perplayer":true,
+            "amount":3
+        },
+        "result":"deny"
+    },
+    {
+        "mob":"born_in_chaos_v1:skeleton_thrasher",
+        "mincount":{
+            "perplayer":true,
+            "amount":2
+        },
+        "result":"deny"
+    },
+    {
+        "mob":"born_in_chaos_v1:bonescaller",
+        "mincount":{
+            "perplayer":true,
+            "amount":1
+        },
+        "result":"deny"
+    },
+    {
+    	"mob":["minecraft:enderman"],
+        "mincount":{
+            "perplayer":true,
+            "amount":2
+        },
+        "result":"deny"
+    },
+    
+    
 
+    {
+        "mob":["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:enderman", "born_in_chaos_v1:skeleton_thrasher"],
+        "biome":[
+            "terralith:highlands",
+            "terralith:brushland",
+            "terralith:steppe",
+            "terralith:alpine_highlands",
+            "minecraft:plains",
+            "minecraft:snowy_plains",
+            "minecraft:beach",
+        	"minecraft:meadow"
+        ],
+        "result":"allow"
+    },
+    
+    {
+        "mob":["minecraft:skeleton","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:bonescaller"],
+        "biome":[
+            "minecraft:savanna",
+            "minecraft:windswept_savanna",
+            "minecraft:badlands",
+            "minecraft:desert",
+            "terralith:arid_highlands",
+            "terralith:shrubland",
+            "terralith:hot_shrubland",
+            "terralith:lush_desert",
+            "terralith:desert_spires",
+            "terralith:desert_canyon",
+			"terralith:bryce_canyon",
+            "terralith:ancient_sands",
+            "terralith:fractured_savanna",
+            "terralith:savanna_badlands",
+            "terralith:red_oasis"
+        ],
+        "result":"allow"
+    },
+    
+    
+    {
+        "mob":["minecraft:skeleton","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:bonescaller"],
+        "biome":[
+            "minecraft:savanna",
+            "minecraft:windswept_savanna",
+            "minecraft:badlands",
+            "minecraft:desert",
+            "terralith:arid_highlands",
+            "terralith:shrubland",
+            "terralith:hot_shrubland",
+            "terralith:lush_desert",
+            "terralith:desert_spires",
+            "terralith:desert_canyon",
+			"terralith:bryce_canyon",
+            "terralith:ancient_sands",
+            "terralith:fractured_savanna",
+            "terralith:savanna_badlands",
+            "terralith:red_oasis"
+        ],
+        "result":"allow"
+    },
+    
+	
+    
+
+
+    {
+        "mob":"samurai_dynasty:kitsune",
+        "when":"onjoin",
+        "mincount": {
+            "perplayer": true,
+            "amount":1
+        },
+        "result":"deny"
+    },{
+        "passive":true,
+        "mod":"samurai_dynasty",
+        "when":"onjoin",
+        "mincount": {
+            "perplayer": true,
+            "amount":4
+        },
+        "result":"deny"
+    },
+    
+    {
+        "mod": "samurai_dynasty",
+        "dimension": "minecraft:overworld",
+        "result": "deny"
+    },
     {
         "mob":"traveloptics:aqua_grandmaster",
         "mincount": {
@@ -101,21 +241,51 @@
     },
     
     {
-        "mob": ["samurai_dynasty:kitsune", "samurai_dynasty:komainu", "samurai_dynasty:onibi", "samurai_dynasty:kawasuo", "samurai_dynasty:tanuki"],
-        "dimension": "minecraft:overworld",
-        "biome": "terralith:sakura_grove",
-        "result": "default"
-    },
-    {
-        "hostile":true,
-        "dimension":"minecraft:overworld",
-        "biome":"terralith:sakura_grove",
+        "passive":true,
+        "biome":["minecraft:cherry_grove"],
+        "maxcount": {
+            "perplayer":true,
+            "amount":5
+        },
         "result":"deny"
     },
-
     {
-        "mob":["born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_trasher"],
-        "mincount":1,
+      "mob": "minecraft:pig",
+      "when":"onjoin",
+      "mincount": {
+        "perplayer": true,
+        "amount": 6
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:sheep",
+      "when":"onjoin",
+      "mincount": {
+        "perplayer": true,
+        "amount": 6
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:cow",
+      "when":"onjoin",
+      "mincount": {
+        "perplayer": true,
+        "amount": 6
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:chicken",
+      "when":"onjoin",
+      "mincount": {
+        "perplayer": true,
+        "amount": 6
+      },
+      "result": "deny"
+    },{
         "result":"deny"
     }
+
 ]
