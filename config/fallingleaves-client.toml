@@ -19,7 +19,7 @@ dropFromPlayerPlacedBlocks = true
 #Range: 1 ~ 20
 minimumFreeSpaceBelow = 1
 #disable wind effects
-disableWind = false
+disableWind = true
 #windless dimensions
 windlessDimension = ["minecraft:the_nether", "minecraft:the_end"]
 

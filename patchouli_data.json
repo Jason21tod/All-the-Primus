@@ -2,6 +2,13 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:adventure/affix_loot/gems"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "goety:black_book": {
       "viewedEntries": [
         "goety:intro/introduction",
@@ -24,7 +31,14 @@
         "footwork:selfdefense/fracture1",
         "footwork:selfdefense/fracture2",
         "footwork:selfdefense/fracture3",
-        "footwork:selfdefense/dualwielding"
+        "footwork:selfdefense/dualwielding",
+        "footwork:selfdefense/marks",
+        "footwork:selfdefense/skills",
+        "footwork:selfdefense/solowielding",
+        "footwork:wartheory/combatmode",
+        "footwork:wartheory/combat_resources",
+        "footwork:wartheory/combat_rank",
+        "footwork:wartheory/attributes"
       ],
       "bookmarks": [],
       "completedManualQuests": []

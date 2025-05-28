@@ -1,6 +1,9 @@
  [   
         
-        
+        {
+        "biome":"terrralith:cave/infested_caves",
+        "result":"deny"
+    },
         {
             "mob":["alexscaves:caramel_cube", "alexscaves:sweetish_fish"],
             "mincount":{
@@ -11,13 +14,35 @@
         },{
             "mod":"alexscaves",
             "result":"allow"
-        },{
-            "mod":"cataclysm",
-            "result":"default"
         },
+     	{
+            "mob":"irons_spellbooks:necromancer",
+            "mincount":2,
+            "result":"deny"
+        },
+     	{
+            "mod":"irons_spellbooks",
+            "result":"allow"
+        },
+         {
+			"mod":"ars_nouveau",
+             "result":"allow"
+         },
+         {
+           "mob":"alexsmobs:guster",
+             "mincount":{
+                 "amount":2,
+                 "perplayer":true
+             },
+			"result":"deny"
+         },
         {
             "mod":"alexsmobs",
             "result":"allow"
+        },
+     	{
+            "mod":"mowziemobs",
+            "result":"default"
         },
         {
             "mod":"galosphere",
@@ -25,6 +50,37 @@
         },{
             "mod":"iceandfire",
             "result":"default"
+        },
+     	{
+            "mod":"minecraft",
+            "passive":"true",
+            "result":"default"
+        },
+     
+     
+     
+     {
+            "mod":"graveyard",
+            "structure": [
+            	"graveyard:altar",
+                "graveyard:crypt",
+                "graveyard:dead_tree",
+                "graveyard:giant_mushroom",
+                "graveyard:haunted_house",
+                "graveyard:large_graveyard",
+                "graveyard:lich_prison",
+                "graveyard:medium_graveyard",
+                "graveyard:memorial_tree",
+                "graveyard:mushroom_grave",
+                "graveyard:ruins",
+                "graveyard:small_desert_grave",
+                "graveyard:small_desert_graveyard",
+                "graveyard:small_grave",
+                "graveyard:small_graveyard",
+                "graveyard:small_mountain_grave",
+                "graveyard:small_savanna_grave"
+            ],
+            "result":"allow"
         },
         {
             "mob":"cataclysm:coral_golem",
@@ -34,27 +90,41 @@
             "result":"deny"
         },
         {
-            "mob":["cataclysm:lionfish","cataclysm:deepling","cataclysm:deepling_angler","cataclysm:deepling_brute","cataclysm:deepling_priest","cataclysm:deepling_warlock"],
+            "mob":["cataclysm:lionfish","cataclysm:deepling","cataclysm:deepling_angler","cataclysm:deepling_brute","cataclysm:deepling_priest","cataclysm:deepling_warlock", "cataclysm:koboleon"],
         	"mincount":{
                 "amount":3,
                 "perplayer":true
             },
             "result":"deny"
         },
-     	
-        
+     
+     	{
+            "mob":"cataclysm:amethyst_crab",
+            "mincount":{
+                "amount":2
+            },
+            "result":"deny"
+        },
+     	{
+            "mob":"cataclysm:amethyst_crab",
+            "biome":["terralith:moonlight_grove","terralith:moonlight_valley"],
+            "result":"allow"
+        },
         {
             "mob":"cataclysm:amethyst_crab",
-            "dimension":"minecraft:overworld",
             "result":"deny"
-        },{
-            "mob":"cataclysm:amethyst_crab",
-            "biome":["terralith:moonlight_valley","terralith:moonlight_grove"],
+        },
+     	{
+            "mod":"cataclysm",
+            "result":"default"
+        },
+        {
+            "mob":"born_in_chaos_v1:supreme_bonescaller",
             "result":"default"
         },
         
         {
-		"mob":["quark:toretoise","quark:stoneling"],
+		"mob":["quark:toretoise","quark:stoneling", "born_in_chaos_v1:dread_hound"],
          "mincount":{
              "amount":4,
              "perplayer":true
@@ -102,14 +172,14 @@
     },
     
     {
-    	"mob":"minecraft:zombie",
+    	"mob":["minecraft:zombie", "minecraft:spider", "undead_revamp2:thesomnolence", "born_in_chaos_v1:corpse_fly"],
         "mincount":{
             "perplayer":true,
-            "amount":3
+            "amount":5
         },
         "result":"deny"
     },{
-    	"mob":["minecraft:skeleton","minecraft:skeleton", "minecraft:creeper"],
+    	"mob":["minecraft:skeleton","minecraft:skeleton", "minecraft:creeper","born_in_chaos_v1:thornshell", "goety:web_spider", "born_in_chaos_v1:decrepit_skeleton", "born_in_chaos_v1:baby_skeleton", "born_in_chaos_v1:decaying_zombie", "minecraft:stray", "scguns:redcoat"],
         "mincount":{
             "perplayer":true,
             "amount":3
@@ -117,7 +187,7 @@
         "result":"deny"
     },
     {
-        "mob":"born_in_chaos_v1:skeleton_thrasher",
+        "mob":["born_in_chaos_v1:skeleton_thrasher", "born_in_chaos_v1:zombie_lumberjack"],
         "mincount":{
             "perplayer":true,
             "amount":2
@@ -125,7 +195,7 @@
         "result":"deny"
     },
     {
-        "mob":"born_in_chaos_v1:bonescaller",
+        "mob":["born_in_chaos_v1:bonescaller","born_in_chaos_v1:zombie_fisherman","born_in_chaos_v1:lifestealer","born_in_chaos_v1:fallen_chaos_knight","goety:maverick", "goety:warlock","goety:heretic","goety:reaper", "goety:border_wraith", "goety:wraith", "goety:muck_wraith", "born_in_chaos_v1:dire_hound_leader","born_in_chaos_v1:swarmer", "born_in_chaos_v1:skeleton_demoman", "born_in_chaos_v1:spirit_guide"],
         "mincount":{
             "perplayer":true,
             "amount":1
@@ -133,18 +203,23 @@
         "result":"deny"
     },
     {
-    	"mob":["minecraft:enderman"],
+    	"mob":["minecraft:enderman","born_in_chaos_v1:barrel_zombie","born_in_chaos_v1:restless_spirit","born_in_chaos_v1:dark_vortex", "born_in_chaos_v1:phantom_creeper","undead_revamp2:thebeartamer", "undead_revamp2:thewolf","goety:icy_spider"],
         "mincount":{
             "perplayer":true,
             "amount":2
         },
         "result":"deny"
     },
-    
-    
-
+     
     {
-        "mob":["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:enderman", "born_in_chaos_v1:skeleton_thrasher"],
+		"mob":["undead_revamp2:thepregnant", "undead_revamp2:theheavy", "undead_revamp2:invisiclogger", "undead_revamp2:thehorrors", "undead_revamp2:slaveman", "undead_revamp2:thedungeon", "undead_revamp2:bigsucker","born_in_chaos_v1:nightmare_stalker", "born_in_chaos_v1:missionary"],
+        "mincount":2,
+        "when":"onjoin",
+        "result":"deny"
+    },
+    
+    {
+        "mob":["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:enderman", "born_in_chaos_v1:skeleton_thrasher", "born_in_chaos_v1:skeleton_demoman", "born_in_chaos_v1:spirit_guide"],
         "biome":[
             "terralith:highlands",
             "terralith:brushland",
@@ -152,7 +227,6 @@
             "terralith:alpine_highlands",
             "minecraft:plains",
             "minecraft:snowy_plains",
-            "minecraft:beach",
         	"minecraft:meadow"
         ],
         "result":"allow"
@@ -179,8 +253,65 @@
         ],
         "result":"allow"
     },
-    
-    
+             {
+                 "mob":["minecraft:slime", "born_in_chaos_v1:corpse_fish", "born_in_chaos_v1:glutton_fish", "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:bloody_gadfly", "scguns:dissident", "scguns:hive", "undead_revamp2:thespitter", "undead_revamp2:bomber","undead_revamp2:thesmoker","undead_revamp2:thehunter","undead_revamp2:theheavy"],
+        "biome":[
+            "minecraft:jungle",
+            "minecraft:sparse_jungle",
+            "minecraft:bamboo_jungle",
+        	"terralith:rocky_jungle",
+        	"terralith:tropical_jungle",
+        	"terralith:jungle_montains"
+    	],
+		"result":"allow"
+    },
+    {
+        "mob":["minecraft:slime", "born_in_chaos_v1:corpse_fish", "born_in_chaos_v1:glutton_fish", "born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:swarmer", "born_in_chaos_v1:bloody_gadfly", "scguns:dissident", "scguns:hive", "undead_revamp2:thespitter","undead_revamp2:thesomnolence", "goety:carrion_fly", "goety:muck_wraith"],
+        "biome":[
+            "minecraft:swamp",
+            "minecraft:mangrove_swamp",
+            "terralith:orchid_swamp"
+    	],
+		"result":"allow"
+    },{
+        "mob":["minecraft:stray", "born_in_chaos_v1:decaying_zombie", "scguns:cog_knight", "scguns:cog_minion", "scguns:sky_carrier", "scguns:redcoat", "undead_revamp2:thebeartamer", "undead_revamp2:thewolf", "goety:icy_spider"],
+        "biome":[
+        	"terralith:ice_cliffs",
+            "minecraft:snowy_plains",
+        	"terralith:ice_marsh",
+            "minecraft:ice_spikes",
+            "terralith:wintry_forest",
+            "terralith:wintry_lowlands",
+            "terralith:glacial_chasm"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":["born_in_chaos_v1:thornshell_crab","born_in_chaos_v1:barrel_zombie","born_in_chaos_v1:zombie_fisherman", "goety:muck_wraith"],
+        "biome":[
+            "minecraft:river",
+            "minecraft:swamp",
+            "minecraft:mangrove_swamp",
+            "minecraft:beach",
+            "minecraft:stony_chore",
+            "terralith:gravel_beach",
+            "terralith:orchid_swamp",
+            "terralith:warm_river"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":["born_in_chaos_v1:decrepit_skeleton", "born_in_chaos_v1:baby_skeleton"],
+        "biome":[
+            "minecraft:badlands",
+            "minecraft:desert",
+            "terralith:savanna_badlands",
+            "terralith:desert_canyon",
+			"terralith:bryce_canyon",
+            "terralith:ancient_sands"
+        ],
+		"result":"allow"
+    },
     {
         "mob":["minecraft:skeleton","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:bonescaller"],
         "biome":[
@@ -201,11 +332,107 @@
             "terralith:red_oasis"
         ],
         "result":"allow"
+    },{
+        "mob":["born_in_chaos_v1:restless_spirit","born_in_chaos_v1:dark_vortex","born_in_chaos_v1:lifestealer","born_in_chaos_v1:fallen_chaos_knight","undead_revamp2:thehorrors", "goety:reaper", "goety:border_wraith", "goety:wraith", "born_in_chaos_v1:phantom_creeper", "born_in_chaos_v1:zombie_lumberjack"],
+        "biome":[
+        	"minecraft:dark_forest",
+        	"terralith:ashen_savanna",
+        	"terralith:siberian_taiga",
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_spruce_taiga",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+        	"terralith:temperate_highlands",
+        	"terralith:yosemite_lowland"
+        ],
+        "result":"default"
     },
-    
-	
-    
+    {
+        "mob":["born_in_chaos_v1:dread_hound","born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:hostile_black_wolf"],
+        "biome":[
+            "minecraft:forest",
+            "minecraft:flower_forest",
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_spruce_taiga",
+            "minecraft:snowy_taiga",
+            "minecraft:birch_forest",
+            "minecraft:plains",
+            "terralith:brushland",
+            "terralith:cold_shrubland",
+            "terralith:highlands",
+        	"terralith:steppe",
+            "terralith:alpha_islands_winter",
+            "terralith:alpine_grove",
+            "terralith:alpine_highlands",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+            "terralith:lavander_forest",
+            "terralith:shield",
+            "terralith:siberian_grove",
+            "terralith:siberian_taiga",
+            "terralith:temperate_highlands",
+            "terralith:wintry_forest",
+            "terralith:wintry_lowlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":["born_in_chaos_v1:restless_spirit","born_in_chaos_v1:dark_vortex","born_in_chaos_v1:lifestealer","born_in_chaos_v1:fallen_chaos_knight"],
+        "biome":[
+        	"minecraft:dark_forest",
+            "minecraft:taiga",
+        	"terralith:siberian_taiga",
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_spruce_taiga"
+        ],
+        "result":"allow"
+    },
+     
+     {
+     		"mob":["goety:brood_mother"],
+            "mincount":{
+                "amount":1,
+                "perplayer":true
+            },
+            "result":"deny"
+         },{
+     		"mob":["goety:brood_mother", "born_in_chaos_v1:mother_spider"],
+         	"biome":"terrralith:cave/infested_caves",
+            "result":"allow"
+         },
 
+     	{
+     		"mob":["minecraft:spider", "minecraft:cave_spider", "minecraft:silver_fish", "goety:bone_spider", "goety:icy_spider", "goety:web_spider"],
+         	"biome":"terrralith:cave/infested_caves",
+            "result":"allow"
+         },
+     
+     {
+          "mod":"minecraft",
+          "maxheight":55,
+          "result":"default"
+        },
+     	{
+          "mob":["goety:web_spider","born_in_chaos_v1:corpse_fly", "born_in_chaos_v1:swarmer", "born_in_chaos_v1:bloody_gadfly", "goety:carrion_fly", "born_in_chaos_v1:scarlet_persecutor", "undead_revamp2:neocrorines"],
+          "maxheight":55,
+          "result":"allow"
+        },
+         {
+		"mob":["scguns:dissident", "undead_revamp2:thesomnolence","undead_revamp2:invisiimmortal"],
+          "maxheight":0,
+          "result":"allow"
+         },
+     	
+     	{
+            "mob":["goety:reaper", "goety:hostile_black_wolf", "goety:wraith", "goety:border_wraith", "goety:muck_wraith", "goety:bone_spider", "goety:icy_spider", "goety:web_spider"],
+            "result":"deny"
+        },
+     	{
+            "mod":"goety",
+            "result":"default"
+        },
 
     {
         "mob":"samurai_dynasty:kitsune",
@@ -284,7 +511,22 @@
         "amount": 6
       },
       "result": "deny"
-    },{
+    },
+     {
+         "mob":["born_in_chaos_v1:diamond_termite", "born_in_chaos_v1:nightmare_stalker", "born_in_chaos_v1:missionary", "born_in_chaos_v1:firelight"],
+         "result":"default"
+     },
+     {
+     		"mob":["minecraft:spider", "minecraft:cave_spider", "minecraft:silver_fish", "goety:bone_spider", "goety:icy_spider", "goety:web_spider"],
+            "mincount":{
+                "amount":12,
+                "perplayer":true
+            },
+         	"biome":"terrralith:cave/infested_caves",
+            "result":"deny"
+        },{
+        "hostile":true,
+        "dimension":"overworld",
         "result":"deny"
     }
 

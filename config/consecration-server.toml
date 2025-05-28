@@ -12,7 +12,7 @@
 	fireVulnerableDuration = 15
 	#The number of seconds that vulnerability from holy sources lasts.
 	#Range: 0 ~ 100
-	holyVulnerableDuration = 15
+	holyVulnerableDuration = 25
 	#The materials that will be considered holy.
 	holyMaterials = ["silver", "netherite"]
 
@@ -21,7 +21,7 @@
 	giveDefaultUndeadUndying = true
 	#The percent damage reduction against non-vulnerable damage.
 	#Range: 0 ~ 100
-	damageReduction = 30
+	damageReduction = 10
 	#The undying natural health regeneration in half-hearts per second.
 	#Range: 0 ~ 1000
 	healthRegeneration = 1
@@ -30,5 +30,5 @@
 	speedModifier = 0
 	#The percent damage reduction against non-vulnerable damage dealt by mobs.
 	#Range: 0 ~ 100
-	damageReductionVsMobs = 40
+	damageReductionVsMobs = 20
 
